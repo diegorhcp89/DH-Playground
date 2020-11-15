@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1 {
+            font-size: 40px;
+        }
+/* 
+        form {
+            font-size: 40px;
+        }
+
+        form input {
+            font-size: 30px;
+        }
+
+        button {
+            font-size: 35px;
+        } */
+    </style>
+</head>
+<body>
+    <h1>Formulários</h1>
+    <form>
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
+        <br>
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email"placeholder="email@me.com" required>
+        <br>
+        <label for="senha">Senha:</label>
+        <input type="password" id="senha" name="senha">
+        <br>
+        <label for="tel">Telefone:</label>
+        <input type="tel" id="tel" name="tel" placeholder="(XX) XXXXX-XXXX">
+        <br>
+        <label for="number">Idade:</label>
+        <input type="number" id="number" name="number" placeholder="00">
+        <br><br>
+        <label>Você já foi ao cinema esse ano?</label>
+        <br>
+        <input type="radio" id="sim" name="cinema" value="sim" checked><label for="sim">Sim</label>
+        <br>
+        <input type="radio" id="nao" name="cinema" value="nao"><label for="nao">Não</label>
+        <br>
+        <label>Você tem um pet?</label>
+        <br>
+        <input type="radio" id="sim" name="pet" value="sim" checked><label for="sim">Sim</label>
+        <br>
+        <input type="radio" id="nao" name="pet" value="nao"><label for="nao">Não</label>
+        <br>
+        <label for="genero">Qual seu genero de cinema favorito?</label>
+        <br>
+        <input type="checkbox" name="genero" id="terror" value="terror" checked><label for="terror">Terror</label>
+        <br>
+        <input type="checkbox" name="genero" id="drama" value="drama"><label for="drama">Drama</label>
+        <br>
+        <input type="checkbox" name="genero" id="romance" value="romance"><label for="romance">Romance</label>
+        <br>
+        <label for="genero">Quais são seus hobbies?</label>
+        <br>
+        <input type="checkbox" name="hobby" id="pescar" value="pescar" checked><label for="terror">Pescar</label>
+        <br>
+        <input type="checkbox" name="hobby" id="correr" value="correr"><label for="drama">Correr</label>
+        <br>
+        <input type="checkbox" name="hobby" id="yoga" value="yoga"><label for="romance">Yoga</label>
+        <br>
+        <label for="pais">País</label>
+        <select name="pais" id="pais">
+            <option select disabled>Selecione</option>
+            <option value="BRA">Brasil</option>
+            <option value="AR">Argentina</option>
+            <option value="UY">Uruguai</option>
+        </select>
+        <br>
+        <label for="mes">Mês</label>
+        <select name="mes" id="mes">
+            <option select disabled>Selecione</option>
+            <option value="1">Janeiro</option>
+            <option value="2">Fevereiro</option>
+            <option value="3">Março</option>
+            <option value="4">Abril</option>
+            <option value="5">Maio</option>
+            <option value="6">Junho</option>
+            <option value="7">Julho</option>
+            <option value="8">Agosto</option>
+            <option value="9">Setembro</option>
+            <option value="10">Outubro</option>
+            <option value="11">Novembro</option>
+            <option value="12">Dezembro</option>
+        </select>
+        <br>
+        <label for="mensagem">Mensagem</label>
+        <br>
+        <textarea name="mensagem" id="mensagem" cols="50" rows="5"></textarea>
+        <br>
+        <!-- <input type="submit" value="enviar"> -->
+        <button type="button">Teste</button>
+        <button type="reset">Apagar</button>
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>

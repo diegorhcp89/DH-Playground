@@ -1,0 +1,13 @@
+h1 {
+    color: gold;
+    text-transform: uppercase;
+}
+
+h3, h4 {
+    text-transform: uppercase;
+}
+
+#whatsapp {
+    background-color: green;
+    color: white;
+}

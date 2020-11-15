@@ -1,0 +1,32 @@
+body {
+    font-family: Arial;
+    /* background-color: pink; */
+    background-image: url(https://images3.alphacoders.com/621/621682.jpg);
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+}
+
+p {
+    font-size: 14px;
+    font-weight: bold;
+    text-align: justify;
+    line-height: 20px;
+    /* color: rgba(0, 30, 128, 0.5); */
+    color: rgba(255, 165, 0, 0.5);
+}
+
+h2 {
+    font-style: italic;
+    text-align: center;
+    text-decoration: underline;
+    background-color: orange;
+    color: white;
+    opacity: 0.4;
+}
+
+h1 {
+    text-transform: uppercase;
+    text-align: center;
+    color: #f4e033;
+    background-color: black;
+}
